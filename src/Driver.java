@@ -8,7 +8,7 @@ public class Driver {
 		TwoSum twoSum = new TwoSum();
 		int[] result = twoSum.twoSum(nums1, 9);
 		System.out.println("result: " + result[0] + " " + result[1]);
-		*/
+
 		
 		// 7. Reverse Integer
 		int t1 = 123;
@@ -17,6 +17,36 @@ public class Driver {
 		ReverseInteger reverseInteger = new ReverseInteger();
 		int result = reverseInteger.reverse(t3);
 		System.out.println("Result: " + result);
+
+		
+		// 35. Search Insert Position
+		int[] nums = {1,3,5,6};
+		int target1 = 5;
+		int target2 = 2;
+		int target3 = 7;
+		SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+		int result = searchInsertPosition.searchInsert(nums, target3);
+		System.out.println("Result: " + result);
+
+		
+		// 43. Multiply Strings - use build in function
+		String s1 = "123";
+		String s2 = "456";
+		MultiplyStrings multiplyStrings = new MultiplyStrings();
+		String result = multiplyStrings.multiply(s1, s2);
+		System.out.println("Result: " + result);
+		*/
+		
+		// 53. Maximum Subarray
+		int[] nums1 = {-2,1,-3,4,-1,2,1,-5,4};
+		MaximumSubarray maximumSubarray = new MaximumSubarray();
+		int result = maximumSubarray.maxSubArray(nums1);
+		System.out.println("Result: " + result);
+		
+				
+		
+
+		
 
 
 	}
