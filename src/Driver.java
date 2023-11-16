@@ -35,17 +35,22 @@ public class Driver {
 		MultiplyStrings multiplyStrings = new MultiplyStrings();
 		String result = multiplyStrings.multiply(s1, s2);
 		System.out.println("Result: " + result);
-		*/
+		
 		
 		// 53. Maximum Subarray
 		int[] nums1 = {-2,1,-3,4,-1,2,1,-5,4};
 		MaximumSubarray maximumSubarray = new MaximumSubarray();
 		int result = maximumSubarray.maxSubArray(nums1);
 		System.out.println("Result: " + result);
+		*/
 		
-				
 		
-
+		// 80. Remove Duplicates from Sorted Array II
+		int[] nums1 = {1,1,1,2,2,3};
+		int[] nums2 = {0,0,1,1,1,1,2,3,3};
+		RemoveDuplicatesFfromSortedArrayII rmDups = new RemoveDuplicatesFfromSortedArrayII();
+		int result = rmDups.removeDuplicates(nums2);
+		System.out.println("Result: " + result);				
 		
 
 
